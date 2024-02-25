@@ -22,6 +22,7 @@ public class CalculadoraGit {
 
         sumar(num1, num2);
         restar(num1,num2);
+        multiplicar(num1, num2);
     }
 
     private static void sumar(int num1, int num2) {
@@ -30,5 +31,9 @@ public class CalculadoraGit {
 
     private static void restar(int num1, int num2) {
         System.out.println("La resta de los dos numeros es: " + (num1 - num2));
+    }
+
+    private static void multiplicar(int num1, int num2) {
+        System.out.println("La multiplicación de los dos numeros es: " + (num1 * num2));        
     }
 }
